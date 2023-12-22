@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "./Logo";
+import { SunIcon } from "./icons";
 
 const Header = () => {
   return (
@@ -15,7 +16,9 @@ const Header = () => {
         <Link href="/contact" className="mr-2">
           Contact
         </Link>
-        <button>The</button>
+        <button>
+          <SunIcon />
+        </button>
       </nav>
       <div>Socials</div>
     </header>
