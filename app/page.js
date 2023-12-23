@@ -1,6 +1,5 @@
 import BlogCoverSection from "@/components/Blog/BlogCoverSection";
 import { allBlogs } from "contentlayer/generated";
-import Image from "next/image";
 
 export default function Home() {
   return (
