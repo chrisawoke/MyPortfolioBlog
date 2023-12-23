@@ -1,10 +1,10 @@
-import BlogCoverSection from "@/components/Blog/BlogCoverSection";
+import HomeCoverSection from "@/components/Home/HomeCoverSection";
 import { allBlogs } from "contentlayer/generated";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <BlogCoverSection blogs={allBlogs} />
+      <HomeCoverSection blogs={allBlogs} />
     </main>
   );
 }
